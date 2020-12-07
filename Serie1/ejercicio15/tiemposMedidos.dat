@@ -1,0 +1,8 @@
+ Tiempo de cálculo de la matriz inversa
+ 
+ 
+ Tiempo de ejecución (LU) =    3.27999890E-03  segundos
+ Tiempo de ejecución (Jacobi) =    7.17999414E-04  segundos
+ Tiempo de ejecución (Gauss-Seidel) =    4.08999622E-04  segundos
+ Tiempo de ejecución (SOR) =    7.45000318E-04  segundos
+ Tiempo de ejecución (elim_gauss) =    1.85899809E-03  segundos

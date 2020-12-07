@@ -1,0 +1,83 @@
+#--------------------------------------------------------------------------------------------------!
+# UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
+# FACULTAD DE INGENIERÍA
+# DIVISIÓN DE INGENIERÍA EN CIENCIAS DE LA TIERRA
+# DEPARTAMENTO DE GEOFÍSICA
+#
+# Asignatura: Inversión de Datos Geofísicos
+#   Profesor: Dr. Mauricio Nava Flores
+#
+# SERIE 1
+#  
+# Instrucciones de ejecución para los programas correspondientes a la serie 1.
+#
+# Integrantes:
+#     Casillas Muñoz, Diego Armando
+#     García Santiago, Berenice Elisama
+#     Solana Mejía, Haydee Amairany
+#
+# Fecha de entrega: 11/diciembre/2020
+#--------------------------------------------------------------------------------------------------!
+#*NOTA: El orden de los directorios y archivos es esencial para el correcto funcionamiento de los
+#       programas presentados. Por favor, no modificar la ubicación de los mismos.
+
+Contenido:
+	1.- Instrucciones de ejecución (ejercicios del 1 al 12).
+	2.- Instrucciones de ejecución (ejercicios del 13 al 15).
+	3.- Organización de los resultados (ejercicios del 1 al 12).
+	4.- Organización de los resultados (ejercicios del 13 al 15).
+
+#--------------------------------------------------------------------------------------------------!
+
+1.- Instrucciones de ejecución (ejercicios del 1 al 12).
+
+	a. Abrir una terminal Linux.
+	b. Ubicarse dentro del directorio del ejercicio de interés, a la altura del documento Makefile
+	   correspondiente.
+	c. Teclear el comando 'make' y presionar enter.
+	d. Teclear el comando 'make exe' y presionar enter.
+
+#--------------------------------------------------------------------------------------------------!
+
+2.- Instrucciones de ejecución (ejercicios del 13 al 15).
+
+Para mayores detalles revisar el archivo 'readme.txt' correspondiente dentro del directorio del
+ejercicio de interés.
+
+	a. Abrir una terminal Linux.
+	b. Ubicarse dentro del directorio del ejercicio de interés, a la altura del documento 'exe.sh'
+	   correspondiente.
+	c. Teclear el comando 'sh exe.sh' o 'bash exe.sh', dependiendo del shell del usuario. Presionar
+	   enter. 
+	   *Nota: En principio, cualquiera de ambos comandos debería funcionar.
+
+#--------------------------------------------------------------------------------------------------!
+
+3.- Organización de los resultados (ejercicios del 1 al 12).
+
+Para estos ejercicios se pide resolver los sistemas de ecuaciones planteados. El vector solución 'x'
+de cada uno de estos sistemas se encuentra especificado en el archivo 'readme.txt' dentro del 
+directorio correspondiente al ejercicio de interés. El archivo bsol.dat muestra el vector 'b' 
+calculado para comprobar la resolución del sistema de ecuaciones. 
+
+#--------------------------------------------------------------------------------------------------!
+
+3.- Organización de los resultados (ejercicios del 13 al 15).
+
+Para mayores detalles revisar el archivo 'readme.txt' correspondiente dentro del directorio del
+ejercicio de interés.
+
+	a. Los vectores solución, la comprobación de los mismos y la matriz inversa calculada se 
+	   encuentran dentro del directorio 'resultados' correspondiente a cada ejercicio, y se 
+	   encuentran organizados dentro de directorios nombrados según el método numérico utilizado.
+	b. Los documentos están nombrados de la siguiente manera, dependiendo del método numérico usado:
+		* Vector solución ---> '*_x.dat'
+		* Comprobación del vector solución (b calculada) ---> '*_bSol.dat'
+		* Matriz inversa de la matriz 'a' ---> '*_matInvnn.dat'
+       Recordar que estos se encuentran organizados dentro del directorio 'resultados' según el método
+       numérico usado para el cálculo.
+    c. El tiempo de ejecución para calcular la matriz inversa se especifica en el archivo
+       'tiemposMedidos.dat', generado durante la ejecución del programa principal. Se encuentra en 
+       los directorios 'ejercicioNN' a la misma altura del archivo exe.sh correspondiente.
+    d. La clasificación de los métodos según su rendimiento computacional se especifica en el 
+       archivo 'readme.txt' que le corresponda a cada ejercicio, en el apartado número 3.
