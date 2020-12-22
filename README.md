@@ -91,30 +91,33 @@ Si bien los programas enlistados los realicé yo, debo decir que es gracias a [A
 
 Resolver los siguientes sistemas de ecuaciones con el algoritmo de Jacobi:
 
-* (07) 
-** 20x+y-2z = 12
+7. Sistema de ecuaciones:
 
-** 3x+20y-z=-18
+* 20x+y-2z = 12
 
-** 2x-3y+20z=25
+* 3x+20y-z=-18
 
-
-* (08) 
-** 10x-y+2z = 6
-
-** -1x+11y+z= 22
-
-** 2x-y+10z=-10
+* 2x-3y+20z=25
 
 
-* (09) 
-** 10w+x+2y = 6
+8. Sistema de ecuaciones:
 
-** -w+11x-y-3z=25
+* 10x-y+2z = 6
 
-** 2w-x-10y-z=-1
+* -1x+11y+z= 22
 
-** 3x-y+8z=15
+* 2x-y+10z=-10
+
+
+9. Sistema de ecuaciones:
+
+* 10w+x+2y = 6
+
+* -w+11x-y-3z=25
+
+* 2w-x-10y-z=-1
+
+* 3x-y+8z=15
 
 
 
