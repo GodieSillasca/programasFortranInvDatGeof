@@ -82,6 +82,30 @@ El programa debe generar un archivo de nombre Result_Pr_16.dat con los resultado
 Escribir un programa (Pr 17.f08) que solicite ingresar los elementos de una matriz [A] 3×3 y un vector {b} 3×1 desde el teclado, indicando la posición que tendrá cada elemento en el arreglo correspondiente (ı́ndices). Posteriormente, deberá realizar la operación [B] = [A] {b} y desplegar la matriz resultante [B] en terminal. Los resultados en terminal deben desplegarse con 6 decimales de precisión.
 
 
+## Serie 1
+
+Si bien los programas enlistados los realicé yo, debo decir que es gracias a [Any Solana](https://www.linkedin.com/in/haydee-amairany-solana-mej%C3%ADa-b848b21bb/) fue un trabajo mucho más sencillo, pues se encargó de tener a punto la mayor parte de los módulos que se usaron para poder resolver los ejercicios.
+
+
+### Ejercicios 07, 08 y 09
+
+Resolver los siguientes sistemas de ecuaciones con el algoritmo de Jacobi:
+
+* (07) 
+$20x+y-2z = 12$
+$3x+20y-z=-18$
+$2x-3y+20z=25$
+
+* (08) 
+$10x-y+2z = 6$
+$-1x+11y+z= 22$
+$2x-y+10z=-10$
+
+* (09) 
+$10w+x+2y = 6$
+$-w+11x-y-3z=25$
+$2w-x-10y-z=-1$
+$3x-y+8z=15$
 
 
 
